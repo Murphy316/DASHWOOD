@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.DW_bkg {
+  background: url(./img/Background2.png);
+  width: auto;
+  height: 350px;
+  background-position: 90% 50%;
+}
+
+/* .DW_bkg header {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.DW_bkg header .logal {
+  display: block;
+  width: 20em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.DW_bkg header ul {
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.DW_bkg header a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.DW_bkg header a:visited {
+  color: white;
+}
+
+.DW_bkg header a:hover {
+  border-bottom: 2px solid white;
+}
+
+/* ====s2 */
+
+.section2 {
+  margin-top: 10px;
+  background-color: #f5f5f5;
+  height: 150px;
+  text-align: center;
+}
+
+.section2 .calender_form {
+  padding-top: 30px;
+}
+
+.section2 .calender_form #from_label {
+  margin-right: 15px;
+}
+
+.section2 .calender_form #to_label {
+  margin-right: 33px;
+}
+
+.section2 .calender_form input {
+  margin-bottom: 15px;
+}
+
+.section2 .calender_form #submit {
+  border: 1px solid black;
+  border-radius: 10em;
+  width: 220px;
+  height: 25px;
+}
+
+.section2 .calender_form #submit:hover {
+  background-color: #e8e8e8;
+}
+
+/* =======s3 */
+
+.section3 {
+  background-color: #e8e8e8;
+  text-align: center;
+  height: 900px;
+}
+
+.section3 .s3header {
+  padding-top: 1em;
+}
+
+.room_img {
+  width: 10em;
+}
+
+.section3 .rooms {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+}
+
+.section3 .rooms a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.section3 .rooms a:visited {
+  color: black;
+}
+
+.section3 .rooms .card {
+  margin-top: 15px;
+}
+
+.section3 .rooms .card:hover {
+  transform: translateY(-10px);
+}
