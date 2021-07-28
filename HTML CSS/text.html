@@ -1,0 +1,138 @@
+<!--
+ * @Author: Murphy
+ * @Date: 2021-07-28 14:50:12
+ * @LastEditTime: 2021-07-28 16:02:59
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        font-family: poppins;
+        box-sizing: border-box;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      #testimonials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+      }
+      .testimonials-heading {
+        letter-spacing: 1px;
+        margin: 30px 0px;
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .testimonials-heading h1 {
+        font-size: 2.2em;
+        font-weight: 500;
+        background-color: #202020;
+        color: white;
+        padding: 10px 20px;
+      }
+
+      .testimonials-heading span {
+        font-size: 1.3em;
+        color: #252525;
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+
+      .testimonials-box-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+
+      .testimonial-box {
+        width: 500px;
+        box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        padding: 20px;
+        margin: 15px;
+        cursor: pointer;
+      }
+
+      .profile {
+        display: flex;
+      }
+
+      .name-user {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .name-user strong {
+        color: #3d3d3d;
+        font-size: 1.1em;
+        letter-spacing: 0.5px;
+      }
+
+      .name-user span {
+        color: #979797;
+        font-size: 0.8em;
+      }
+
+      .reviews {
+        color: black;
+      }
+
+      .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .comments p {
+        font-size: 0.9em;
+        color: #4b4b4b;
+      }
+
+      .testimonial-box:hover {
+        transform: translateY(-20px);
+        transition: all ease 0.3s;
+      }
+
+      @media (max-width: 1060px) {
+        .testimonial-box {
+          width: 45%;
+          padding: 10px;
+        }
+      }
+
+      @media (max-width: 790px) {
+        .testimonial-box {
+          width: 100%;
+        }
+        .testimonials-heading {
+          font-size: 1.4rem;
+        }
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body></body>
+</html>
