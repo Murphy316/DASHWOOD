@@ -45,6 +45,7 @@
 /* ====s2 */
 
 .section2 {
+  position: relative;
   margin-top: 10px;
   background-color: #f5f5f5;
   height: 150px;
@@ -81,6 +82,7 @@
 /* =======s3 */
 
 .section3 {
+  position: relative;
   background-color: #e8e8e8;
   text-align: center;
   height: auto;
@@ -120,31 +122,101 @@
 
 /* =======s4 */
 .section4 {
+  position: relative;
+  height: 900px;
   background-color: #f5f5f5;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
 }
 
-.section4 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+#explore1 #explore2 {
+  position: relative;
+  width: 45%;
 }
-
-.section4 .card {
-  padding-top: 2em;
+#breakfast {
+  position: absolute;
+  width: 19em;
+  left: 2.3em;
+  top: 2.3em;
+}
+.explore_1_fade {
+  position: absolute;
+  width: 17em;
+  left: 3.25em;
+  top: 3.25em;
+}
+#BREAKFAST_BY_THE_OCEAN {
+  position: absolute;
+  left: 3.8em;
+  top: 2.5em;
   text-align: center;
+  font-family: Leelawadee UI;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+}
+#Plan_Your_Trip_ {
+  position: absolute;
+  left: 6em;
+  top: 7.5em;
+  text-align: center;
+  font-family: Leelawadee UI;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 1);
+}
+.Rectangle_18 {
+  position: absolute;
+  overflow: visible;
+  width: 120px;
+  height: 2px;
+  left: 8em;
+  top: 11em;
 }
 
-.section4 .explore {
-  padding-bottom: 2em;
+/* === 2*/
+#explore2 {
+  position: relative;
+  /* width: 45%; */
 }
 
-.section4 .breakfast .bk_overlay {
-  position: inherit;
-  background-color: rgba(0, 0, 0, 0.1);
+#BC {
+  position: absolute;
+  width: 19em;
+  left: 2.3em;
+  top: 15.5em;
 }
-
-.section4 .explore .ep_overlay {
-  position: inherit;
-  background-color: rgba(0, 0, 0, 0.1);
+.explore_2_fade {
+  position: absolute;
+  width: 17em;
+  left: 3.25em;
+  top: 16.75em;
+}
+#EXPLORE_THE_BEACH___PARKS {
+  position: absolute;
+  left: 3.8em;
+  top: 11.25em;
+  text-align: center;
+  font-family: Leelawadee UI;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+}
+#Learn_More {
+  position: absolute;
+  left: 7em;
+  top: 18.75em;
+  text-align: center;
+  font-family: Leelawadee UI;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 1);
+}
+.Rectangle_19 {
+  position: absolute;
+  overflow: visible;
+  width: 120px;
+  height: 2px;
+  left: 8.35em;
+  top: 24.5em;
 }
