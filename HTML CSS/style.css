@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
+  box-sizing: border-box;
 }
 
 .DW_bkg {
@@ -122,101 +123,74 @@
 
 /* =======s4 */
 .section4 {
-  position: relative;
-  height: 900px;
   background-color: #f5f5f5;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
 }
 
-#explore1 #explore2 {
-  position: relative;
-  width: 45%;
+.section4 img:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
 }
-#breakfast {
-  position: absolute;
-  width: 19em;
-  left: 2.3em;
-  top: 2.3em;
-}
-.explore_1_fade {
-  position: absolute;
-  width: 17em;
-  left: 3.25em;
-  top: 3.25em;
-}
-#BREAKFAST_BY_THE_OCEAN {
-  position: absolute;
-  left: 3.8em;
-  top: 2.5em;
-  text-align: center;
-  font-family: Leelawadee UI;
-  font-weight: bold;
-  font-size: 25px;
-  color: rgba(255, 255, 255, 1);
-}
-#Plan_Your_Trip_ {
-  position: absolute;
-  left: 6em;
-  top: 7.5em;
-  text-align: center;
-  font-family: Leelawadee UI;
-  font-weight: bold;
-  font-size: 1.2em;
-  color: rgba(255, 255, 255, 1);
-}
-.Rectangle_18 {
-  position: absolute;
-  overflow: visible;
-  width: 120px;
-  height: 2px;
-  left: 8em;
-  top: 11em;
+.column img {
+  float: left;
+  width: 50%;
+  padding: 30px;
 }
 
-/* === 2*/
-#explore2 {
-  position: relative;
-  /* width: 45%; */
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-#BC {
-  position: absolute;
-  width: 19em;
-  left: 2.3em;
-  top: 15.5em;
+/* ==== s5*/
+.section5 {
+  background-color: #e8e8e8;
 }
-.explore_2_fade {
-  position: absolute;
-  width: 17em;
-  left: 3.25em;
-  top: 16.75em;
+.review_cl {
+  font-size: 16px;
+  color: white;
+  float: left;
+  width: 30%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
+  margin: 15px;
 }
-#EXPLORE_THE_BEACH___PARKS {
-  position: absolute;
-  left: 3.8em;
-  top: 11.25em;
+
+/* Clear floats after the columns */
+.review_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* =======s7 */
+.section7 {
+  background-color: #f5f5f5;
   text-align: center;
-  font-family: Leelawadee UI;
   font-weight: bold;
-  font-size: 25px;
-  color: rgba(255, 255, 255, 1);
 }
-#Learn_More {
-  position: absolute;
-  left: 7em;
-  top: 18.75em;
-  text-align: center;
-  font-family: Leelawadee UI;
-  font-weight: bold;
-  font-size: 1.2em;
-  color: rgba(255, 255, 255, 1);
+
+.section7_header {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
-.Rectangle_19 {
-  position: absolute;
-  overflow: visible;
-  width: 120px;
-  height: 2px;
-  left: 8.35em;
-  top: 24.5em;
+
+.section7 .desc {
+  font-size: 13px;
+}
+
+.section7_sub_header {
+  padding-top: 10px;
+  padding-bottom: 3px;
+}
+/* for iphone x */
+@media screen and (max-width: 376px) {
+  .column img {
+    width: 100%;
+  }
+  .review_cl {
+    width: 91%;
+  }
 }
