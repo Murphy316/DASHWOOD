@@ -1,7 +1,7 @@
 <!--
  * @Author: Murphy
  * @Date: 2021-07-27 09:12:00
- * @LastEditTime: 2021-07-28 16:12:07
+ * @LastEditTime: 2021-07-28 22:11:21
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -17,31 +17,35 @@
     />
   </head>
   <body>
-    <div class="DW_bkg">
-      <header>
-        <img src="./img/DW_logo_1.png" alt="DashWood Logal" class="logal" />
+    <div class="DW">
+      <section class="section1">
         <nav>
-          <ul class="show-desktop" id="nav">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ROOMS</a></li>
-            <li><a href="#">PACKAGES</a></li>
-            <li><a href="#">BOOK</a></li>
-            <li><a href="#">EXPLORE</a></li>
-            <li><a href="#">ABOUT</a></li>
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <i class="fa fa-bars"></i>
+          </label>
+          <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Rooms</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Book</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
           </ul>
         </nav>
-      </header>
+        <img src="./img/DW_logo_1.png" alt="DashWood Logal" class="logal" />
+      </section>
 
       <section class="section2">
-        <form action="#" class="calender_form">
-          <label for="from" id="from_label">From:</label>
-          <input type="date" id="from" name="from" />
-          <br />
-          <label for="to" id="to_label">To:</label>
-          <input type="date" id="to" name="to" />
-          <br />
-          <input type="submit" id="submit" />
-        </form>
+        <div class="container">
+          <form action="#" class="calender_form">
+            <label for="from" id="from_label">From:</label>
+            <input type="date" id="from" name="from" />
+            <label for="to" id="to_label">To:</label>
+            <input type="date" id="to" name="to" />
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
       </section>
 
       <section class="section3">
