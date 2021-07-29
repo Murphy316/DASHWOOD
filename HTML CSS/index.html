@@ -1,7 +1,7 @@
 <!--
  * @Author: Murphy
  * @Date: 2021-07-27 09:12:00
- * @LastEditTime: 2021-07-28 22:11:21
+ * @LastEditTime: 2021-07-29 13:20:00
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -196,69 +196,54 @@
       </section>
 
       <section class="section7">
-        <span class="section7_header">get in touch</span>
-        <p class="desc">
-          Dashwood Manor is located in beautiful Victoria, BC.<br />
-          1 Cook St, Victoria, BC V8V 3W6 Canada<br />
-          reservations@dashwoodmanor.com
-        </p>
-        <h3 class="section7_sub_header">Have questions or inquiries?</h3>
-        <p>Send us a message!</p>
-
-        <div class="form">
+        <div class="container">
+          <span class="section7_header">get in touch</span>
+          <div class="sub-details">
+            <p class="desc">
+              Dashwood Manor is located in beautiful Victoria, BC.<br />
+              1 Cook St, Victoria, BC V8V 3W6 Canada<br />
+              reservations@dashwoodmanor.com
+            </p>
+            <h3 class="section7_sub_header">Have questions or inquiries?</h3>
+            <p>Send us a message!</p>
+          </div>
           <form action="#">
-            <input
-              id="f_input"
-              type="text"
-              name="first-name"
-              autocomplete="off"
-              required
-            />
-            <label for="first-name" class="label-first-name">
-              <span class="content-first-name">First Name</span>
-            </label>
-
-            <input
-              id="l_input"
-              type="text"
-              name="last-name"
-              autocomplete="off"
-              required
-            />
-            <label for="last-name" class="label-last-name">
-              <span class="content-name">Last Name</span>
-            </label>
-
-            <input
-              id="e_input"
-              type="text"
-              name="email"
-              autocomplete="off"
-              required
-            />
-            <label for="email" class="label-email">
-              <span class="content-name">Email</span>
-            </label>
-
-            <input
-              id="s_input"
-              type="text"
-              name="subject"
-              autocomplete="off"
-              required
-            />
-            <label for="subject" class="label-subject">
-              <span class="content-name">Subject</span>
-            </label>
-
-            <textarea
-              id="textarea"
-              name="textarea"
-              rows="4"
-              cols="50"
-            ></textarea>
-            <div class="submit">
-              <input id="submit" type="submit" value="Submit" />
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">First Name</span>
+                <input
+                  type="text"
+                  placeholder="Enter your first name.."
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <span class="details">Last Name</span>
+                <input
+                  type="text"
+                  placeholder="Enter your last name.."
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <span class="details">Emial</span>
+                <input type="text" placeholder="Enter your email.." required />
+              </div>
+              <div class="input-box">
+                <span class="details">Subject</span>
+                <input type="text" placeholder="Enter your subject" required />
+              </div>
+            </div>
+            <div class="textarea">
+              <textarea
+                id="textarea"
+                name="textarea"
+                placeholder="Write something.."
+                style="height: 200px"
+              ></textarea>
+            </div>
+            <div class="button">
+              <input type="submit" value="Submit" />
             </div>
           </form>
         </div>
@@ -279,7 +264,7 @@
 
       <section class="section9">
         <footer class="footer">
-          <nav>
+          <!-- <nav>
             <ul id="nav">
               <li><a href="#">HOME</a></li>
               <li><a href="#">ROOMS</a></li>
@@ -288,7 +273,7 @@
               <li><a href="#">EXPLORE</a></li>
               <li><a href="#">ABOUT</a></li>
             </ul>
-          </nav>
+          </nav> -->
           <p>
             Dashwood Manor Seaside Bed & Breakfast<br />
             1 Cook St, Victoria, BC V8V 3W6 Canada<br />
@@ -296,9 +281,9 @@
           </p>
 
           <div class="image_group">
-            <img src="./img/1.png" />
-            <img src="./img/2.png" />
-            <img src="./img/3.png" />
+            <img class="img1" src="./img/1.png" />
+            <img class="img2" src="./img/2.png" />
+            <img class="img3" src="./img/3.png" />
           </div>
         </footer>
       </section>
