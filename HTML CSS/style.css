@@ -495,9 +495,7 @@ a {
 }
 
 /* ======s9 */
-.section9 {
-  background-color: #e8e8e8;
-}
+
 /* .section9 .footer ul {
   text-align: center;
   line-height: 1.5em;
@@ -520,6 +518,9 @@ a {
   color: black;
   border-bottom: 2px solid black;
 } */
+.section9 {
+  background-color: #e8e8e8;
+}
 
 .section9 .footer p {
   padding-top: 10px;

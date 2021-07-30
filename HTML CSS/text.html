@@ -1,0 +1,121 @@
+<!--
+ * @Author: Murphy
+ * @Date: 2021-07-29 11:32:25
+ * @LastEditTime: 2021-07-29 17:56:28
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      .container3 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .card {
+        background-color: #e8e8e8;
+        width: 500px;
+        margin: 10px;
+        border-radius: 15px;
+      }
+
+      .card-image {
+        background-color: aqua;
+        height: 270px;
+        margin-bottom: 15px;
+        background-size: cover;
+      }
+
+      .bkgs3 {
+        background-image: url(./img/Background2.png);
+      }
+
+      .card h2 {
+        padding: 10px;
+        text-decoration: underline;
+      }
+
+      .card .pkg-desc p {
+        padding: 20px;
+      }
+
+      .pkg-desc {
+        text-align: center;
+      }
+
+      .pkg-details {
+        padding-left: 10px;
+      }
+
+      .pkg-details h4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-decoration: underline;
+      }
+
+      .pkg-details ul {
+        font-size: 15px;
+        list-style-type: none;
+      }
+      .pkg-details ul li::before {
+        content: "- ";
+        font-weight: 900;
+        padding-left: 10px;
+      }
+      .end p {
+        text-align: center;
+        padding-top: 15px;
+      }
+
+      .end {
+        padding-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container3">
+      <div class="card">
+        <div class="card-image bkgs3"></div>
+        <div class="pkg-desc">
+          <h2>Romance Package</h2>
+          <p>
+            Treat yourself to a romantic getaway in one of our luxury suites,
+            voted top 10 Romantic Accommodations for 2021 by Travelmyth .
+          </p>
+
+          <p>
+            Have a relaxing candlelit bath while enjoying some terribly
+            delicious chocolate truffles and sipping a glass of local sparkling
+            wine.
+          </p>
+          <p>Does it get any better than this?</p>
+        </div>
+        <div class="pkg-details">
+          <h4>Package Inclusions:</h4>
+          <ul>
+            <li>A bottle of sparkling white wine from Vancouver Island</li>
+            <li>Assortment of 4 truffles made locally in Victoria</li>
+            <li>Relaxing Bath Tea made in house</li>
+            <li>Cucumber Eye Mask for two</li>
+            <li>Flameless Tea-lights</li>
+            <li>Rose Petals sourced locally</li>
+          </ul>
+          <div class="end">
+            <p>Package Add-On is $100 (Taxes & Gratuities not included)</p>
+            <p>Not guaranteed for same day bookings.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
